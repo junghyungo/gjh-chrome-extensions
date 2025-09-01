@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Mobile iFrame Viewer",
+  "version": "1.0",
+  "description": "모바일처럼 iframe으로 사이트 보기",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [],
+  "host_permissions": [
+    "*://*/*"
+  ]
+}

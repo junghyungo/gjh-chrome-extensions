@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 10px;
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.phone-frame {
+  width: 375px;
+  height: 667px;
+  border: 16px solid #333;
+  border-radius: 36px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  background: white;
+  position: relative;
+}
+
+.phone-frame::before {
+  content: "";
+  width: 60px;
+  height: 5px;
+  background: #999;
+  border-radius: 10px;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

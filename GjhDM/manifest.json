@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Mobile View Launcher",
+  "version": "1.0",
+  "description": "특정 사이트를 모바일 사이즈로 띄워줍니다.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["tabs", "windows"]
+}

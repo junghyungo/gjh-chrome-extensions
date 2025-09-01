@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "GjhTheme-ArcticMonkeys",
+  "version": "1.0",
+  "description": "Simple light theme with arctic monkeys wallpaper",
+  "theme": {
+    "colors": {
+      "frame": [255, 255, 255],
+      "frame_inactive": [225, 225, 225],
+      "frame_incognito": [0, 0, 0],
+      "frame_incognito_inactive": [0, 0, 0],
+      "bookmark_text": [0, 0, 0],
+      "tab_background_text": [120, 120, 120],
+      "tab_text": [0, 0, 0],
+      "toolbar": [255, 255, 255, 1.0],
+      "toolbar_button_icon": [120, 120, 120],
+      "omnibox_text": [20, 20, 20],
+      "omnibox_background": [255, 255, 255],
+      "button_background": [255, 255, 255],
+      "control_background": [0, 0, 0],
+      "ntp_background": [0, 0, 0],
+      "ntp_header": [0, 0, 0],
+      "ntp_link": [0, 0, 0],
+      "ntp_link_underline": [0, 0, 0],
+      "ntp_section": [0, 0, 0],
+      "ntp_section_link": [0, 0, 0],
+      "ntp_section_link_underline": [0, 0, 0],
+      "ntp_section_text": [0, 0, 0],
+      "ntp_text": [0, 0, 0]
+    },
+    "images": {
+      "theme_ntp_background": "images/wp_am.png"
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
+// https://github.com/Patrick-Batenburg/GoogleChromeThemeCreationGuide
